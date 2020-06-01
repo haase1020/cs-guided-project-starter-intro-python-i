@@ -52,10 +52,10 @@ YOU DO
 """
 # # Modify the supplied code so that all of the statements evaluate to True
 # # change this code
-# number = 5
-# second_number = 5
-# first_array = []
-# second_array = [3, 4, 5]
+# number = 20
+# second_number = 0
+# first_array = [1,2,3]
+# second_array = [3, 4]
 
 # print(bool(number > 15))
 

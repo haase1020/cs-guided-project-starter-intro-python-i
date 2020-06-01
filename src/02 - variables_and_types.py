@@ -2,12 +2,12 @@
 Variable and Types
 """
 # # 1. Integers
-# myint = 9
-# print(myint)
+myint = 9
+print(myint)
 
 # # 2. Floating point numbers
-# myfloat = 7.245
-# print(myfloat)
+myfloat = 7.245
+print(myfloat)
 # myfloat = float(7)
 # print(myfloat)
 
