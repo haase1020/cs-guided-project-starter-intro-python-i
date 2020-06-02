@@ -32,4 +32,8 @@ YOU DO
 # and make sure all the names are properly
 # capitalized in the new list.
 
-# names = ["Sarah", "jorge", "sam", "frank", "bob", "sandy", "shawn"]
+names = ["Sarah", "jorge", "sam", "frank", "bob", "sandy", "shawn"]
+words = names
+
+names = [name.title() for name in names if name.startswith(('s', 'S'))]
+print(names)

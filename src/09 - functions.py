@@ -3,14 +3,20 @@ Functions
 """
 
 # # 1. Defining a function
+
+
 # def my_function():
 #     print("Hello From My Function!")
 
-# # 2. Receiving arguments
-# def my_function_with_args(username, greeting):
-#     print("Hello, %s , From My Function!, I wish you %s" %
-#           (username, greeting))
 
+# my_function()
+# # 2. Receiving arguments
+def my_function_with_args(username, greeting):
+    print("Hello, %s , From My Function!, I wish you %s" %
+          (username, greeting))
+
+
+my_function_with_args('ho', 'you')
 # # 3. Returning values
 # def sum_two_numbers(a, b):
 #     return a + b
